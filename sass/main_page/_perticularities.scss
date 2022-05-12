@@ -1,0 +1,51 @@
+.section {
+    padding: 95px 0;
+}
+
+.peculiarities-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.peculiarities-list__item {
+    width: 270px;
+    margin-right: 30px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.peculiarities-list__bckdrnd {
+    width: 270px;
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.peculiarities-list__img {
+    fill: var(--color-dark-212121);
+}
+
+.peculiarities-list__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.peculiarities-list__text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--color-grey-757575);
+    margin: 0;
+}
