@@ -1,7 +1,9 @@
 .title { /*common*/
     font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
+    font-size: 20px;
+    // font-size: 28px;
+    // font-size: 36px;
+    line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
 
@@ -10,7 +12,8 @@
 }
 
 .title--web-social{ 
-    text-align: left;
+    // text-align: left;
+    text-align: center;
     font-size: 14px;
     line-height: 16px;
     text-transform: uppercase;
@@ -28,8 +31,13 @@
 
 .title--hero {
     font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
+    font-size: 24px;
+    line-height: 1.61;
+    width: 200px;
+    // font-size: 28px;
+    // line-height: 1.61;
+    // font-size: 44px;
+    // line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--color-white-ffffff);
