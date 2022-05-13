@@ -50,15 +50,14 @@ body {
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
+  font-size: 24px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--focus-color-blue);
 }
 
 .logo__menu {
-  padding: 24px 0;
-  margin-right: 95px;
+  padding: 16px 0;
 }
 
 .logo-header,
@@ -138,7 +137,7 @@ body {
 }
 
 .contacts {
-  display: flex;
+  display: none;
   align-items: center;
 }
 
@@ -323,7 +322,7 @@ body {
 }
 
 .menu__list {
-  display: flex;
+  display: none;
 }
 
 .menu__item {
@@ -364,6 +363,17 @@ body {
   transform-origin: bottom left;
 }
 
+.menu-open {
+  border: none;
+  background-color: transparent;
+}
+
+.menu-open-btn {
+  fill: var(--color-dark-212121);
+  width: 24px;
+  height: 16px;
+}
+
 .hero {
   width: 320px;
   background-color: var(--color-dark-2f303a);
@@ -381,6 +391,7 @@ body {
 }
 
 .activity {
+  display: none;
   padding-top: 0;
 }
 

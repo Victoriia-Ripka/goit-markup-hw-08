@@ -17,7 +17,8 @@
 }
 
 .menu__list {
-    display: flex;
+    display: none;
+    // display: flex;
 }
 
 .menu__item {
@@ -60,5 +61,16 @@
         transform: scaleX(1);
         transform-origin: bottom left;
     }
+}
+
+.menu-open{
+    border: none;
+    background-color: transparent;
+}
+
+.menu-open-btn{
+    fill: var(--color-dark-212121);
+    width: 24px;
+    height: 16px; 
 }
 
