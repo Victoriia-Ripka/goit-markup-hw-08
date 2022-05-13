@@ -93,6 +93,34 @@
     overflow: auto;
 }
 
+.menu__close-btn{
+position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 8px;
+    top: 8px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+
+    &:focus .menu__close,
+    &:hover .menu__close {
+        fill: var(--focus-color-blue);
+    }
+}
+
+.menu__close{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    fill: var(--color-dark-212121);
+    width: 11px;
+    height: 11px;
+    
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .menu-mob__pages{
     margin-bottom: auto;
 }
