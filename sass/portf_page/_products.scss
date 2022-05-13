@@ -1,17 +1,23 @@
 .products {
+    
     display: flex;
     flex-wrap: wrap;
-    margin: -15px;
+    // margin: -15px;
 }
 
 .products__item {
-    width: 370px;
-    margin: 15px;
+    width: 290px;
+    margin: 0 0 15px 0;
+    // width: 370px;
+    // margin: 15px;
     flex-basis: calc((100% - 3 * 30px) / 4);
     box-shadow: 0 0 0 #FFF,
         0 0 0 #FFF,
         0 0 0 #FFF;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:last-child{
+        margin: 0;
+    }
 }
 
 .products__link {
@@ -77,6 +83,8 @@
 
 .products__img {
     display: block;
+    width: 290px;
+    height: auto;
 }
 
 .products__decription {
