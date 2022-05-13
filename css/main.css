@@ -381,8 +381,7 @@ body {
   top: 0;
   left: 0;
   background-color: #fff;
-  width: 100vh;
-  height: 100vh;
+  width: 100%;
   padding-top: 48px;
   padding-bottom: 48px;
   padding-left: 40px;
