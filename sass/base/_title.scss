@@ -34,7 +34,7 @@
     font-weight: 900;
     font-size: 24px;
     line-height: 1.61;
-    width: 200px;
+    max-width: 360px;
     // font-size: 28px;
     // line-height: 1.61;
     // font-size: 44px;
@@ -42,7 +42,7 @@
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--color-white-ffffff);
-    width: 700px;
+    // width: 700px;
 
     margin: 0 auto;
     margin-bottom: 30px;
