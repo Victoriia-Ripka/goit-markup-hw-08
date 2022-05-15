@@ -45,7 +45,14 @@
 
 .web-contacts {
     margin: 0 0 60px 0;
-    // margin-right: 70px;
+
+    @media screen and (min-width: 768px){
+        margin: 0 165px 0 0;
+    }
+    @media screen and (min-width: 1200px){
+        text-align: left;
+        margin: 0 70px 0 0;
+    }
 }
 
 .web-contacts__list {

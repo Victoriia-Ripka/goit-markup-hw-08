@@ -1,12 +1,9 @@
 .title { /*common*/
     font-weight: 700;
     font-size: 20px;
-    // 
-    // 
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-
     margin-top: 0;
     margin-bottom: 50px;
 
@@ -21,22 +18,27 @@
 }
 
 .title--web-social{ 
-    // text-align: left;
     text-align: center;
     font-size: 14px;
     line-height: 16px;
     text-transform: uppercase;
     color: #FFFFFF;
     margin: 0 0 20px 0;
+    @media screen and (min-width: 1200px) {
+        text-align: left;
+    }
 }
 
 .title--modal { 
     padding: 0;
     margin: 0 0 2px 0;
     font-size: 16px;
-    // font-size: 20px;
     line-height: 1.15;
     color: var(--color-dark-212121);
+
+    @media screen and (min-width: 480px) {
+        font-size: 20px;
+    }
 }
 
 .title--hero {
@@ -61,6 +63,6 @@
     @media screen and (min-width: 1200px){
         font-size: 44px;
         line-height: 1.36;
-        width: 700px;
+        max-width: 700px;
     }
 }
