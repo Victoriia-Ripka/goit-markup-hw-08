@@ -11,8 +11,13 @@
 
 .logo__menu {
     padding: 16px 0;
-    // padding: 24px 0;
-    // margin-right: 95px;
+    @media screen and (min-width: 768px) {
+        margin-right: 88px;
+    }
+    @media screen and (min-width: 768px) {
+        margin-right: 95px;
+        padding: 24px 0;
+    }
 }
 
 .logo-header,
