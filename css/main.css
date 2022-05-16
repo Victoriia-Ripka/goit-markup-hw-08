@@ -62,6 +62,12 @@ body {
   }
 }
 
+@media screen and (max-width: 1200px) {
+  .section--hiden {
+    display: none;
+  }
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -707,12 +713,11 @@ body {
 }
 
 .activity {
-  display: none;
-  padding-top: 0;
+  padding-top: 0 0 60px 0;
 }
 @media screen and (min-width: 1200px) {
   .activity {
-    display: block;
+    padding-top: 0 0 95px 0;
   }
 }
 
@@ -892,6 +897,7 @@ body {
 }
 
 .peculiarities-list__title {
+  text-align: center;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -899,6 +905,11 @@ body {
   text-transform: uppercase;
   margin-bottom: 10px;
   margin-top: 0;
+}
+@media screen and (min-width: 768px) {
+  .peculiarities-list__title {
+    text-align: left;
+  }
 }
 
 .peculiarities-list__text {
@@ -942,6 +953,10 @@ body {
 @media screen and (min-width: 480px) {
   .team-list__item {
     width: 450px;
+    margin: 0 auto 30px;
+  }
+  .team-list__item:last-child {
+    margin: 0 auto;
   }
 }
 @media screen and (min-width: 768px) {

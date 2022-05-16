@@ -19,3 +19,9 @@
         padding: 95px 0;
     }
 }
+
+.section--hiden {
+    @media screen and (max-width: 1200px) {
+        display: none;
+    }
+}
