@@ -1,15 +1,21 @@
 .products {
     display: flex;
     flex-wrap: wrap;
-    // margin: -15px;
+    @media screen and (min-width: 768px) {
+        flex-wrap: wrap;
+        margin: -15px;
+    }
 }
 
 .products__item {
     width: 290px;
-    margin: 0 0 15px 0;
+    margin: 0 auto 15px;
+    @media screen and (min-width: 480px) {
+        width: 450px;
+    }
     // width: 370px;
     // margin: 15px;
-    flex-basis: calc((100% - 3 * 30px) / 4);
+    // flex-basis: calc((100% - 3 * 30px) / 4);
     box-shadow: 0 0 0 #FFF,
         0 0 0 #FFF,
         0 0 0 #FFF;

@@ -710,6 +710,11 @@ body {
   display: none;
   padding-top: 0;
 }
+@media screen and (min-width: 1200px) {
+  .activity {
+    display: block;
+  }
+}
 
 .activity-list {
   margin: 0;
@@ -934,6 +939,11 @@ body {
 .team-list__item:last-child {
   margin: 0;
 }
+@media screen and (min-width: 480px) {
+  .team-list__item {
+    width: 450px;
+  }
+}
 @media screen and (min-width: 768px) {
   .team-list__item {
     width: 354px;
@@ -1006,12 +1016,28 @@ body {
 .portf {
   padding: 60px 0;
 }
+@media screen and (min-width: 1200px) {
+  .portf {
+    padding: 95px 0;
+  }
+}
 
 .portf__list1 {
   margin: 0 0 40px 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: start;
+}
+@media screen and (min-width: 768px) {
+  .portf__list1 {
+    margin: 0 0 30px 0;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .portf__list1 {
+    margin: 0 0 50px 0;
+  }
 }
 
 .portf__item-nav {
@@ -1053,13 +1079,23 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
+@media screen and (min-width: 768px) {
+  .products {
+    flex-wrap: wrap;
+    margin: -15px;
+  }
+}
 
 .products__item {
   width: 290px;
-  margin: 0 0 15px 0;
-  flex-basis: calc((100% - 3 * 30px) / 4);
+  margin: 0 auto 15px;
   box-shadow: 0 0 0 #FFF, 0 0 0 #FFF, 0 0 0 #FFF;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+@media screen and (min-width: 480px) {
+  .products__item {
+    width: 450px;
+  }
 }
 .products__item:last-child {
   margin: 0;
