@@ -5,12 +5,10 @@
     margin: 0 auto;
     @media screen and (min-width: 480px){
         width: 480px;
-        margin: 0 auto;
     }
     @media screen and (min-width: 768px) {
             width: 768px;
     }
-
     @media screen and (min-width: 1200px) {
         width: 1200px;
     }
@@ -18,10 +16,13 @@
 
 .section {
     padding: 60px 0;
-    
     @media screen and (min-width: 1200px) {
         padding: 95px 0;
     }
+}
+
+.section--activity {
+    padding: 0 0 95px 0;
 }
 
 .section--hiden {
