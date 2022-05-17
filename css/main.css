@@ -1221,6 +1221,18 @@ body {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 @media screen and (min-width: 480px) {
+  .products__imgp::before {
+    width: 450px;
+    transform: translatey(358px);
+  }
+}
+@media screen and (min-width: 768px) {
+  .products__imgp::before {
+    width: 354px;
+    transform: translatey(295px);
+  }
+}
+@media screen and (min-width: 480px) {
   .products__imgp {
     width: 450px;
   }
@@ -1240,7 +1252,7 @@ body {
   position: absolute;
   top: 63px;
   left: 24px;
-  width: 100%;
+  width: 242px;
   margin: 0;
   font-weight: 400;
   font-size: 12px;
@@ -1323,7 +1335,6 @@ body {
   letter-spacing: 0.06em;
   color: var(--color-dark-212121);
   margin: 0 0 5px 0;
-  width: 242px;
 }
 
 .products__btn {
