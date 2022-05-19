@@ -14,18 +14,25 @@
     }
 }
 
-.section {
-    padding: 60px 0;
+.container--hero{
+    width: 100%;
+    padding: 118px 0;
     @media screen and (min-width: 1200px) {
-        padding: 95px 0;
+        padding: 200px 0;
+    }
+}
+
+.section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    @media screen and (min-width: 1200px) {
+        padding-top: 95px;
+        padding-bottom: 95px;
     }
 }
 
 .section--activity {
-    padding: 0 0 95px 0;
-}
-
-.section--hiden {
+    padding-top: 0;
     @media screen and (max-width: 1200px) {
         display: none;
     }

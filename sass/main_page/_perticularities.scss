@@ -31,9 +31,9 @@
         width: 354px;
         margin: 15px 15px 15px 15px;
         align-items: left;
-        // &:last-child {
-        //     margin: 15px 15px 15px 15px;
-        // }
+        &:last-child {
+            margin: 15px 15px 15px 15px;
+        }
     }
 
     // @media screen and (max-width: 767px) and (min-width: 1200px){
