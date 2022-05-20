@@ -16,7 +16,7 @@
 }
 
 .products__item {
-    width: 290px;
+    width: 100%;
     margin: 15px auto;
     box-shadow: 0 0 0 #FFF,
         0 0 0 #FFF,
@@ -70,7 +70,7 @@
 }
 
 .products__imgp {
-    width: 290px;
+    width: 100%;
     position: relative;
     overflow: hidden;
 
@@ -148,7 +148,9 @@
 
 .products__img {
     display: block;
-    width: 290px;
+    width: 100%;
+    max-width: 450px;
+    max-height: 290px;
     height: auto;
     @media screen and (min-width: 480px) {
         width: 450px;
