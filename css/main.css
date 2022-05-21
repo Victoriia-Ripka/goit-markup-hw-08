@@ -598,6 +598,10 @@ body {
   color: var(--focus-color-blue);
 }
 
+.menu__text--current {
+  color: var(--focus-color-blue);
+}
+
 .menu__text--focusblue {
   color: var(--focus-color-blue);
 }
