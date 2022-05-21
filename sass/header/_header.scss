@@ -216,16 +216,14 @@ position: absolute;
 
 .menu-mob__soc{
     display: flex;
+    flex-wrap: wrap;
+    gap: 10px
 
 }
 
 .menu-mob__soc-net{
-    &:first-child {
-        padding: 0 10px 0 0;
-    }
-    &:not(:first-child){
-        padding: 0 10px;
-    }
+    padding-right: 10px;
+    
 
     &:not(:last-child){
         border-right: 1px solid rgba(33, 33, 33, 0.2);
@@ -234,7 +232,7 @@ position: absolute;
 
 .menu-mob__soc-text{
     font-weight: 500;
-    font-size: 12px;
+    font-size: 18px;
     line-height: 1.22;
     letter-spacing: 0.02em;
     color: #2196F3;

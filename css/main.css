@@ -241,6 +241,9 @@ body {
     margin-right: 50px;
   }
 }
+.contacts__item:first-child {
+  margin-bottom: 10px;
+}
 
 .contacts__text {
   font-weight: 500;
@@ -751,13 +754,12 @@ body {
 
 .menu-mob__soc {
   display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
-.menu-mob__soc-net:first-child {
-  padding: 0 10px 0 0;
-}
-.menu-mob__soc-net:not(:first-child) {
-  padding: 0 10px;
+.menu-mob__soc-net {
+  padding-right: 10px;
 }
 .menu-mob__soc-net:not(:last-child) {
   border-right: 1px solid rgba(33, 33, 33, 0.2);
@@ -765,7 +767,7 @@ body {
 
 .menu-mob__soc-text {
   font-weight: 500;
-  font-size: 12px;
+  font-size: 18px;
   line-height: 1.22;
   letter-spacing: 0.02em;
   color: #2196F3;
