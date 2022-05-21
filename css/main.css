@@ -708,6 +708,11 @@ body {
 .menu-mob__text:hover, .menu-mob__text:focus {
   color: var(--focus-color-blue);
 }
+@media screen and (min-width: 480px) {
+  .menu-mob__text {
+    font-size: 40px;
+  }
+}
 
 .menu-mob__contacts {
   margin-bottom: 64px;
@@ -721,9 +726,13 @@ body {
   font-weight: 500;
   font-size: 30px;
   line-height: 40px;
-  /* identical to box height */
   letter-spacing: 0.02em;
   color: #2196F3;
+}
+@media screen and (min-width: 480px) {
+  .menu-mob__contact-text {
+    font-size: 34px;
+  }
 }
 
 .menu-mob__email-text {
@@ -732,6 +741,11 @@ body {
   line-height: 28px;
   letter-spacing: 0.02em;
   color: #757575;
+}
+@media screen and (min-width: 480px) {
+  .menu-mob__email-text {
+    font-size: 24px;
+  }
 }
 
 .menu-mob__soc {
@@ -754,6 +768,11 @@ body {
   line-height: 1.22;
   letter-spacing: 0.02em;
   color: #2196F3;
+}
+@media screen and (min-width: 480px) {
+  .menu-mob__soc-text {
+    font-size: 18px;
+  }
 }
 
 .menu-mob__text--current {
@@ -1317,7 +1336,7 @@ body {
 .products__img {
   display: block;
   width: 100%;
-  max-width: 450px;
+  max-width: 370px;
   max-height: 290px;
   height: auto;
 }
