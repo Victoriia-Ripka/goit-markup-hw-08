@@ -58,9 +58,6 @@
         color: var(--focus-color-blue);
     }
 }
-.menu__text--current {
-    color: var(--focus-color-blue);
-}
 
 .menu__text--focusblue {
     color: var(--focus-color-blue);
@@ -237,4 +234,8 @@ position: absolute;
     line-height: 1.22;
     letter-spacing: 0.02em;
     color: #2196F3;
+}
+
+.menu-mob__text--current {
+    color: var(--focus-color-blue);
 }
