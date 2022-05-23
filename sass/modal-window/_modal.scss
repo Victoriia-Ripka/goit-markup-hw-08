@@ -175,7 +175,7 @@
 }
 
 .modal-input-ch {
-    margin: 10px 0 0 0;
+    margin: 20px 0 0 0;
 }
 
 .modal-link {
@@ -229,17 +229,17 @@
 }
 
 .modal-input-check-hidden{
-    // &:hover .modal-input__span,
-    // &:focus .modal-input__span{
-    //     border: 2px solid var(--focus-color-blue);
-    // }
+    &:hover + .modal-input__span,
+    &:focus + .modal-input__span{
+        border: 2px solid var(--focus-color-blue);
+    }
 
-    &:checked+.modal-link .modal-input__span {
+    &:checked + .modal-input__span {
         background-color: var(--focus-color-blue);
         border: none;
     }
 
-    &:checked+.modal-link .modal-input-check-mark {
+    &:checked + .modal-input-check-mark {
         fill: var(--color-white-ffffff);
     }
 }

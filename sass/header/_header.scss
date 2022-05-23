@@ -80,6 +80,12 @@
     width: 24px;
     height: 16px; 
     cursor: pointer;
+
+    &:hover,
+    &:focus{
+        fill: var(--focus-color-blue);
+    }
+
 }
 
 .menu-mob{
